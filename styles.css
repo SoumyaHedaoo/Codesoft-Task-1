@@ -1,0 +1,305 @@
+/* Google Fonts(Poppins) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background: #ffffff;
+  padding-bottom: 400px;
+}
+
+nav {
+  width: 85%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+nav .logo {
+  width: 120px;
+  cursor: pointer;
+}
+
+nav ul li {
+  display: inline-flex;
+  list-style: none;
+  margin: 10px 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: rgb(26, 171, 197);
+}
+
+.btn {
+  text-decoration: none;
+  background: #3267b1;
+  color: #fff;
+  padding: 10px 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(0.9);
+  background-color: black;
+}
+
+.info {
+  margin-left: 8%;
+  margin-top: 15%;
+  padding-bottom: 400px;
+}
+
+.info h1 p {
+  font-size: 70px;
+  color: #7FC7D9;
+  flex: auto;
+
+}
+
+.info h1 span {
+  color: #146C94;
+}
+
+.info p h4 {
+  color: #a1a1a1;
+  line-height: 22px;
+}
+
+.info .btn {
+  display: inline-block;
+  margin: 30px 0;
+}
+
+
+.images {
+  width: 45%;
+  height: 65%;
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  flex: auto;
+  margin-right: 40px;
+  margin-bottom: 30px;
+
+}
+
+.images img {
+  height: 100%;
+  position: absolute;
+  left: 70%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: all 1s;
+}
+
+.images:hover .bg {
+  bottom: 40px;
+}
+
+.images:hover .girl {
+  left: 54%;
+}
+
+
+
+/* Experience Section */
+.experience {
+  background: #d9dcdd;
+  color: #F5F5DC;
+
+  padding: 50px;
+  text-align: center;
+}
+
+.experience h2 {
+  font-size: 28px;
+  color: #6d8654;
+}
+
+.experience-item {
+  margin: 20px 0;
+}
+
+.experience-item h3 {
+  font-size: 20px;
+  color: #6d8654;
+}
+
+.experience-item p {
+  font-size: 16px;
+  color: #a1a1a1;
+}
+
+/* Project Section */
+
+.project-card {
+  height: 100;
+  width: 500px;
+  inline-size: none;
+
+  background-color: #f8f3f3;
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px green;
+}
+
+.projects {
+
+  background: #be9a81;
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects h2 {
+  font-size: 28px;
+  color: #fff;
+}
+
+.project-item {
+  margin: 20px 0;
+}
+
+.project-item h3 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.project-item p {
+  font-size: 16px;
+  color: #d9dcdd;
+}
+
+/* Skills Section */
+#skills {
+    height: 100vh;
+  }
+  #sk-head {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .article {
+    width: 40%;
+    /* border: #4b4b4b solid; */
+    text-align: center;
+    margin-bottom: 50px;
+  } 
+
+#sk-box1 {
+    height: 500px;
+    text-align: center;
+    width: 500px;
+    border: #4b4b4b solid;
+    border-radius: 30px;
+  }
+  
+  #sk-box i {
+    display: inline;
+    font-size: 1.2rem;
+  }
+  
+  #sk-box h4 {
+    display: inline;
+    font-size: 20px;
+    font-weight: 550;
+  }
+  
+  #sk-box-cnt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+  
+  #sk-box h2 {
+    font-weight: 600;
+  }
+  #sk-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  #sk-box2-cnt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  #sk-box2 {
+    height: 500px;
+    text-align: center;
+    width: 500px;
+    border: #4b4b4b solid;
+    border-radius: 30px;
+  }
+  #sk-box h2 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  
+  #contact h4 {
+    text-align: center;
+    padding-top: 20vh;
+  }
+/* Contact */
+.icons {
+  margin-left: 50px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  align-items: center;
+
+}
+
+.icons a {
+    align-items: center;
+  font-size: 50px;
+  margin-right: 20px;
+  color: #333636;
+  transition: all 0.3s ease;
+}
+
+.icons div {
+  padding-left: 570px;
+}
+
+.icons a:hover {
+  color: rgb(167, 56, 56);
+}
+
+.icons h2 {
+  font-size: 28px;
+  color: #be9a81;
+  padding-left: 650px;
+
+
+}
